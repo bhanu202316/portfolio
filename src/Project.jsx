@@ -1,17 +1,15 @@
 import Hero from './Hero';
-import About from './About';
 import DownloadButton from './downloadbutton';
+import About from './About';
 
 const Overlap = () => {
   return (
     <div className="relative">
-      <Hero />
       
-      {/* Overlapping Container */}
-      <div className="absolute top-[40%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+      <Hero />
+      <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 w-[90%] md:w-[60%]">
         <DownloadButton />
       </div>
-      
       <About />
     </div>
   );

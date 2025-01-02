@@ -1,16 +1,33 @@
-import './App.css'
-import Nav from './Header'
-import Overlap from './Project'
+import './App.css';
+import Nav from './Header';
+import Experience from './experience';
+import Overlap from './Project';
+import Skill from './Skills';
+import Projects from './newproject';
+import Contact from './contect';
 function App() {
-  
-
-  return (
-    <>
-      <h1 className= "font-extrabold text-center bg-gradient-to-r from-sky-600 to-green-600 text-white">Welcome to my portfolio</h1>
-      <Nav></Nav>
-      <Overlap></Overlap>
-    </>
-  )
+    return (
+        <>
+            <Nav />
+            <div>
+                <section id="hero">
+                    <Overlap />
+                </section>
+                <section id="skills">
+                    <Skill />
+                </section>
+                <section id="experience">
+                    <Experience />
+                </section>
+                <section id="projects">
+                    <Projects></Projects>
+                </section>
+                <section>
+                    <Contact></Contact>
+                </section>
+            </div>
+        </>
+    );
 }
 
-export default App
+export default App;
