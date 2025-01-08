@@ -7,7 +7,7 @@ const Nav = () => {
     };
 
     return (
-        <nav className="bg-gradient-to-r from-gray-800 to-gray-600 text-white py-2">
+        <nav className="bg-gradient-to-r from-gray-800 to-gray-600 text-white py-2 w-screen">
             <ul className="flex space-x-8 my-4 justify-center font-medium">
                 <li>
                     <button onClick={()=>handleScroll('home')} className="hover:text-emerald-400">Home</button>

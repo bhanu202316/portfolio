@@ -23,7 +23,7 @@ function Experience() {
     ];
   
     return (
-      <section id="experience" className="bg-cover bg-[url(/laptop1.avif)] py-20">
+      <section id="experience" className="bg-gray-900 py-20">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-center text-white mb-12">
             Experience
@@ -33,7 +33,7 @@ function Experience() {
             {experiences.map((experience, index) => (
               <div
                 key={index}
-                className="bg-transparent shadow-lg rounded-lg p-6 border-l-4 border-emerald-500"
+                className="bg-transparent shadow-sm rounded-md shadow-pink-400 p-6"
               >
                 <div className="flex justify-between items-center">
                 <h3 className="text-xl font-semibold text-white">

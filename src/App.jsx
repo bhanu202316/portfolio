@@ -5,6 +5,8 @@ import Overlap from './Project';
 import Skill from './Skills';
 import Projects from './newproject';
 import Contact from './contect';
+import BubbleCursor from './bubble';
+
 function App() {
     return (
         <>
@@ -20,12 +22,13 @@ function App() {
                     <Experience />
                 </section>
                 <section id="projects">
-                    <Projects></Projects>
+                    <Projects />
                 </section>
                 <section>
-                    <Contact></Contact>
+                    <Contact />
                 </section>
             </div>
+            <BubbleCursor />
         </>
     );
 }

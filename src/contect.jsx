@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 function Contact() {
-    const [form, setForm] = useState({ name: "", email: "", phone:"", message: "" });
+    const [form, setForm] = useState({ name: "", email: "", phone: "", message: "" });
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -12,17 +12,17 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
         alert(`Message sent! Name: ${form.name}, Email: ${form.email}, Message: ${form.message}, Phone:${form.phone}`);
-        setForm({ name: "", email: "", phone:"", message: "" });
+        setForm({ name: "", email: "", phone: "", message: "" });
     };
 
     return (
-        <section id="contact" className="bg-gray-900 text-white py-20">
+        <section id="contact" className="bg-gray-900 text-white py-20 ">
             <div className="max-w-4xl mx-auto ">
                 <h2 className="text-4xl font-bold text-center mb-8">Get in Touch</h2>
                 
-                <div className="grid grid-cols-2 mx-auto px-14 border-2 border-lime-300 justify-center ">
+                <div className="grid grid-cols-2 mx-auto px-14 justify-center shadow-md rounded-lg shadow-fuchsia-400 ">
                    <div className="">
-                    <p className="p-10 py-36">Whether you're looking for a personal website, a business solution, or a skilled developer to join your team, I'm here to help. Reach out, and let's bring your ideas to life.</p>
+                    <p className="p-10 py-36 text-xl font-serif mb-4">Whether you're looking for a personal website, a business solution, or a skilled developer to join your team, I'm here to help. Reach out, and let's bring your ideas to life.</p>
                     </div>
                 
                 <form onSubmit={handleSubmit}  className="space-y-3 m-4">
@@ -54,8 +54,8 @@ function Contact() {
                         <label htmlFor="phone" className="text-lg font-medium mb-2">Phone</label>
                         <input
                             type="text"
-                            id="name"
-                            name="name"
+                            id="phone"
+                            name="phone"
                             value={form.phone}
                             onChange={handleChange}
                             className="p-3 bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500"

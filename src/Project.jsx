@@ -1,7 +1,6 @@
 import Hero from './Hero';
 import DownloadButton from './downloadbutton';
 import About from './About';
-
 const Overlap = () => {
   return (
     <div className="relative">

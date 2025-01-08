@@ -4,7 +4,7 @@ function Projects() {
             id: 1,
             title: "Derma Home",
             description: "A website for people who want to care skin with natural products and remedies with Html, Javascript and CSS.",
-            image: "portfolio.jpg",
+            image: "derma1.jpg",
             demoLink: "https://your-portfolio-demo-link.com",
             repoLink: "https://github.com/bhanu202316/portfolio",
         },
@@ -32,7 +32,7 @@ function Projects() {
                             <img
                                 src={project.image}
                                 alt={project.title}
-                                className="w-full h-48 object-cover rounded-md mb-4"
+                                className="w-full object-fill h-56 rounded-md mb-4"
                             />
                             <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
                             <p className="text-gray-400 mb-4">{project.description}</p>
