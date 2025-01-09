@@ -28,9 +28,9 @@ function Hero() {
           <button className="mt-10 py-4 px-8 bg-sky-300 text-white text-lg md:text-xl rounded-lg font-medium hover:bg-red-300 transition-all">
             View My Work
           </button></div>
-          <div className="">
+          <div className="bg-gray-700 shadow-md h-1/2 rounded-full">
           <img src="photo-removebg-preview.png"
-          className='px-16 pb-6 pt-1 shadow-sm bg-gray-700'>
+          className=' '>
           </img></div>
           </div>
         </section>
