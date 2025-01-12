@@ -12,7 +12,7 @@ function Projects() {
             id: 2,
             title: "E-commerce App",
             description: "A feature-rich e-commerce platform with React and Node.js.",
-            image: "ecommerce.jpg",
+            image: "amazon.png",
             demoLink: "https://your-ecommerce-demo-link.com",
             repoLink: "https://github.com/bhanu202316/portfolio",
         },

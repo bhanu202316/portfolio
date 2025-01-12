@@ -12,8 +12,8 @@ function About() {
   ];
 
   const otherTools = [
-    { name: "Splunk", icon: "/splunk.png" },
-    { name: "Power BI", icon: "/powerbi.png" },
+    { name: "Splunk", icon: "/icons8-splunk.svg" },
+    { name: "Power BI", icon: "/power-bi-icon.svg" },
     { name: "Snowflake", icon: "https://s2.svgbox.net/weather-icons.svg?ic=snowflake-cold" },
   ];
 
@@ -23,10 +23,7 @@ function About() {
         <h2 className="text-4xl font-bold text-center text-white mb-12">
           My Knowledge in Software
         </h2>
-
-        {/* Upper Part: Two Containers */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-          {/* Frontend Skills */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-md shadow-fuchsia-400">
             <h3 className="text-2xl font-bold text-emerald-400 mb-4">
               Frontend Development
@@ -46,8 +43,6 @@ function About() {
               ))}
             </div>
           </div>
-
-          {/* Backend Skills */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-md shadow-fuchsia-400">
             <h3 className="text-2xl font-bold text-emerald-400 mb-4">
               Backend Development
@@ -68,8 +63,6 @@ function About() {
             </div>
           </div>
         </div>
-
-        {/* Centered Container */}
         <div className="bg-gray-800 p-6 rounded-lg shadow-md mx-auto max-w-3xl shadow-fuchsia-400">
           <h3 className="text-2xl font-bold text-emerald-400 mb-4 text-center">
             Other Tools

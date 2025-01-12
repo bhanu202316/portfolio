@@ -2,7 +2,7 @@
     position: fixed;
     width: 20px;
     height: 20px;
-    background: rgba(133, 204, 255, 0.7); 
+    background: rgba(28, 136, 224, 0.7); 
     border-radius: 50%;
     pointer-events: none; 
     animation: bubble-float 1s ease-out forwards;
@@ -15,7 +15,7 @@
     }
     
     100% {
-      transform: translateY(50px) scale(2);
+      transform: translateY(-50px) scale(2);
       opacity: 0;
     }
   }

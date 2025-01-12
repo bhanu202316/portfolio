@@ -12,7 +12,7 @@ function App() {
         <>
             <Nav />
             <div>
-                <section id="hero">
+                <section id="home">
                     <Overlap />
                 </section>
                 <section id="skills">
