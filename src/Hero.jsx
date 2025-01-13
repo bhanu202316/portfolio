@@ -4,7 +4,7 @@ function Hero() {
     <>
       <section className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 px-36 md:px-32 pt-28 pb-44 min-h-[90vh] relative">
         <div className="flex items-center justify-between pb-44">
-          {/* Left Content */}
+        
           <div>
             <h1 className="text-white text-8xl font-bold leading-tight">
               I am
@@ -27,12 +27,12 @@ function Hero() {
             </button>
           </div>
 
-          {/* Right Image with Enhancements */}
+        
           <div className="relative">
-            {/* Glowing Ring */}
+
             <div className="absolute -top-10 -left-10 w-72 h-72 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full blur-3xl"></div>
-            {/* Profile Image */}
-            <div className="relative rounded-full border-4 border-gray-800 overflow-hidden shadow-lg z-10">
+        
+            <div className="relative rounded-full border-2  border-gray-800 overflow-hidden shadow-lg z-10">
               <img
                 src="photo-removebg-preview.png"
                 alt="Bhanu Sharma"

@@ -1,4 +1,5 @@
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { useState } from "react";
 
 function Contact() {
@@ -85,13 +86,13 @@ function Contact() {
                     <p>Email me at: <a href="mailto:bhanu2019sharma@gmail.com" className="text-blue-500 hover:underline">bhanu2019sharma@gmail.com</a></p>
                     <div className="flex justify-center space-x-4 mt-4">
                         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-blue-500">
-                            <i className="fab fa-linkedin"></i>
+                        <FontAwesomeIcon icon={faLinkedin} style={{color: "#334cc7",}} />
                         </a>
                         <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-blue-500">
-                            <i className="fab fa-github"></i>
+                        <FontAwesomeIcon icon={faGithub} />
                         </a>
                         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-blue-500">
-                            <i className="fab fa-twitter"></i>
+                        <FontAwesomeIcon icon={faTwitter}/>
                         </a>
                     </div>
                 </div>
