@@ -36,7 +36,8 @@ const Nav = () => {
   }, []);
 
   return (
-    <nav
+    <header>
+    <nav 
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
         isScrolled ? "bg-gray-800/80 shadow-lg backdrop-blur-md" : "bg-transparent"
       }`}
@@ -108,7 +109,7 @@ const Nav = () => {
           </button>
         </li>
       </ul>
-    </nav>
+    </nav></header>
   );
 };
 

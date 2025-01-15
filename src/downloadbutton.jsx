@@ -18,8 +18,8 @@ const DownloadButton = () => {
         </p>
       </div>
       <a
-        href="/path/to/your/resume.pdf"
-        download="Bhanu_Sharma_Resume.pdf"
+        href="\porfolio\myself\public"
+        download="Bhanu Sharma resume (3).pdf"
         className="mt-6 inline-block bg-green-600 text-white py-3 px-10 rounded-full font-medium shadow-lg hover:bg-green-500 hover:shadow-xl transition-all transform hover:scale-105"
       >
         Download Resume

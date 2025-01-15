@@ -16,18 +16,26 @@ function Projects() {
             demoLink: "https://your-ecommerce-demo-link.com",
             repoLink: "https://github.com/bhanu202316/portfolio",
         },
+        {
+            id: 3,
+            title: "Password Generator ",
+            description: "Password generator featuring customizable length and character options for secure passwords.",
+            image: "password.jpg",
+            demoLink: "https://your-ecommerce-demo-link.com",
+            repoLink: "https://github.com/bhanu202316/portfolio",
+        },
        
     ];
 
     return (
-        <section id="projects" className="bg-gray-900 text-white py-20">
+        <section id="projects" className="bg-gradient-to-l from-black to-gray-950 text-white py-20">
             <div className="max-w-7xl mx-auto px-4">
                 <h2 className="text-4xl font-bold text-center mb-8">My Projects</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project) => (
                         <div
                             key={project.id}
-                            className="bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition-all"
+                            className="bg-gray-950 p-6 rounded-lg shadow-lg transform hover:scale-105 transition-all"
                         >
                             <img
                                 src={project.image}

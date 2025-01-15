@@ -23,7 +23,7 @@ function Experience() {
     ];
   
     return (
-      <section id="experience" className="bg-gray-900 py-20">
+      <section id="experience" className="bg-gradient-to-l from-black to-gray-950 py-20">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-4xl font-bold text-center text-white mb-12">
             Experience

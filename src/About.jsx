@@ -8,7 +8,7 @@ function About() {
     {
       year: "2022",
       description:
-        "Enrolled in an MCA program. Learned foundational concepts of computer science and began experimenting with HTML, CSS, and JavaScript.",
+        "Enrolled in an MCA program. Learned foundational concepts of computer science and began experimenting with HTML, CSS, python and JavaScript.",
     },
     {
       year: "2023",
@@ -18,15 +18,14 @@ function About() {
     {
       year: "2024",
       description:
-        "Completed MCA. Secured an internship as a Frontend Developer at 64 Squares LLC, gaining hands-on experience in React development.",
+        "Completed MCA. Secured an internship as a junior data engineer at 64 Squares LLC, gaining hands-on experience.",
     },
   ];
 
   return (
-    <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 text-center">
+    <section className="relative bg-gradient-to-l from-black to-gray-950 py-20 text-center">
  
 
-      {/* Section Header */}
       <div className="max-w-4xl mx-auto pt-48">
         <h2 className="text-sky-50 font-bold text-6xl tracking-wide">
           About Me
@@ -37,7 +36,7 @@ function About() {
         </p>
       </div>
 
-      {/* Journey Timeline */}
+     
       <div className="relative max-w-6xl mx-auto mt-16">
         <div className="absolute left-1/2 w-1 bg-orange-600 transform -translate-x-1/2 h-full"></div>
         <div className="space-y-12">
@@ -49,7 +48,7 @@ function About() {
               }`}
             >
               <div
-                className={`bg-gray-800 text-gray-200 p-6 shadow-md w-5/12 shadow-fuchsia-400 transform transition-all duration-300 hover:scale-110`}
+                className={`bg-gray-950 text-gray-200 p-6 shadow-md w-5/12 shadow-fuchsia-400 transform transition-all duration-300 hover:scale-110`}
               >
                 <h4 className="text-lg font-bold text-sky-50">{entry.year}</h4>
                 <p className="mt-3">{entry.description}</p>
@@ -60,7 +59,7 @@ function About() {
         </div>
       </div>
 
-      {/* Who I Am Section */}
+    
       <div className="max-w-4xl mx-auto text-left mt-16 text-gray-300 px-6">
         <h3 className="text-3xl font-semibold text-sky-50">Who I Am</h3>
         <p className="mt-6 mb-4">
